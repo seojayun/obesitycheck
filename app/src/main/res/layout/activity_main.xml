@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+<!--      android:orientation="vertical"   ▲ 위젯을 위아래로순차적으로 배치한다는 의미-->
+
+
+
+    <EditText
+        android:id="@+id/hei1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="키를 입력해주세요."
+        android:inputType="number"/>
+
+<!--   android:inputType="number" 는 입력란에 숫자만 입력할수 있다는 의미 -->
+
+    <EditText
+        android:id="@+id/wei1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="몸무게를 입력해주세요."
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="비만도 체크"/>
+
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+        android:text="당신의 결과는?"/>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ivb"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--<ImageView  결과값에 따라 이미지 배치-->
+
+
+</LinearLayout>
